@@ -1,13 +1,12 @@
 # OSMOSE-BOB MAIN CONFIGURATION FILE
 # Ecosystem name (Reference, year)
 # OSMOSE version 4.4.1
-# Last update: Tue Feb 11 17:52:21 2025
 
 
 
-population.genotype.transmission.year.start  = 120
 
-#reproduction.normalisation.enabled = TRUE
+population.genotype.transmission.year.start  = 120 # Set to 5 to start genetic inheritance after 5 years, 
+# or set higher than "simulation.time.nyear" to disable heritability
 
 
 # Setting the model -------------------------------------------------------
